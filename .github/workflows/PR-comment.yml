@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name: Comment on new PR
 
 on: [pull_request]
@@ -10,3 +11,17 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         pr-message: 'It's holiday time. We will respond within 7 days. Please be patient'
+=======
+name: Comment on new PR
+
+on: [pull_request]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/github-script@0.3.0
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        pr-message: 'It's holiday time. We will respond within 7 days. Please be patient'
+>>>>>>> origin
