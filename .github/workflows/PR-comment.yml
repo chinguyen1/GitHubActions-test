@@ -11,6 +11,6 @@ jobs:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         script: |
           const { issue: { number: issue_number }, repo: { owner, repo }  } = context;
-          github.issues.createComment({ issue_number, owner, repo, body: 'expect a delay as it's holiday';
+          github.issues.createComment({ issue_number, owner, repo, body: 'expect a delay during holiday periods.' });
         
        
