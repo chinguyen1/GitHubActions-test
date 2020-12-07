@@ -3,7 +3,7 @@ name: PRcomment
 on: [pull_request]
 
 jobs:
-  greeting:
+  commenting:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/github-script@0.3.0
