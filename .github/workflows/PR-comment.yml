@@ -1,4 +1,4 @@
-name: Greetings
+name: PRcomment
 
 on: [pull_request]
 
