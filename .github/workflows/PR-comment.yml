@@ -10,3 +10,4 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         pr-message: 'It's holiday time. We will respond within 7 days. Please be patient'
+
